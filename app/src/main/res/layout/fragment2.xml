@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<TextView
+    android:id="@+id/textlari"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/berlari"
+    android:textSize="30sp"
+    android:gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/rel_lari">
+        <VideoView
+            android:id="@+id/vid_lari"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp"/>
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btnlari1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/ic_share" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_marginTop="30dp"
+    android:layout_below="@+id/rel_lari">
+    <VideoView
+        android:id="@+id/vid_lari2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="121dp"/>
+
+</RelativeLayout>
+
+</RelativeLayout>

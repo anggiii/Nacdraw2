@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Nacdraw2</string>
+    <string name="berenang">Berenang</string>
+    <string name="bersepedah">Bersepedah</string>
+    <string name="basket">Basket</string>
+    <string name="komunikasi">komunikasi</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="namaku">Anggia</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="frag1">ini fragment 1</string>
+    <string name="frag2">Manfaat Bersepedah</string>
+    <string name="frag3">ini fragment 3</string>
+    <string name="frag4">ini fragment 4</string>
+    <string name="frag5">ini fragment 5</string>
+    <string name="ini_fragment_7">ini fragment 7</string>
+    <string name="frag6">ini fragment 6</string>
+    <string name="frag7">ini fragment 7</string>
+    <string name="frag8">ini fragment 8</string>
+    <string name="profil">profil</string>
+    <string name="video_1">Video 1</string>
+    <string name="berlari">Berlari</string>
+    <string name="bultang">Bultang</string>
+    <string name="home">Home</string>
+    <string name="halo_ini_home_anggi">halo ini home anggi</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/ic_swimming"
+            android:title="@string/home"/>
+
+        <item android:id="@+id/running"
+            android:icon="@drawable/ic_run"
+            android:title="@string/berlari"/>
+
+        <item android:id="@+id/berlari"
+            android:icon="@drawable/ic_sepeda"
+            android:title="@string/bersepedah"/>
+
+        <item android:id="@+id/basket"
+            android:icon="@drawable/ic_basket"
+            android:title="@string/basket"/>
+
+        <item android:id="@+id/bultang"
+            android:icon="@drawable/ic_bultang"
+            android:title="@string/bultang"/>
+
+        <item android:id="@+id/berenang"
+            android:icon="@drawable/ic_swimming"
+            android:title="@string/berenang"/>
+    </group>
+
+</menu>
